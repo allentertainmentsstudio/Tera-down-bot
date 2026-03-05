@@ -12,5 +12,5 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantlinks.co")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "bb19246271be2273550dd1c3817ebda087e6c01b")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/ultroid_official/18") # shareus ka tut_vid he 
+IS_VERIFY = os.environ.get("IS_VERIFY", "False")
+TUT_VID = os.environ.get("TUT_VID", "https://i.ibb.co/jPC2WRtm/x.jpg") # shareus ka tut_vid he 
